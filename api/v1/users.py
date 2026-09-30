@@ -123,8 +123,7 @@ async def create_user():
         session.commit()
         return jsonify({'message': 'OK'})
     except Exception as e:
-        print(e)
-        return jsonify({'message':'an error with the request'})
+        return jsonify("message": "submitted request has an error!")
 
 @user.route('/delete_a_user/<int:user_id>', methods=['DELETE'])
 async def delete_a_user(user_id):
