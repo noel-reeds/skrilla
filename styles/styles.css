@@ -47,3 +47,7 @@ body {
 .skrilla_at_glance {
   display: flex;
 }
+
+footer {
+  display: flex;
+}
