@@ -3,24 +3,34 @@
   width: device-width;
 }
 
-body {
-  background-color: #CCE0FF;
-  min-height: 100%;
+* {
+  box-sizing: inherit;
 }
 
 html {
-  display: table;
-  margin: auto;
+  box-sizing: border-box;
+  height: 100%;
+}
+
+body {
+  min-height: 100vh;
+  background-color: lightblue;
+}
+
+.wrapper {
+  display: grid;
+  grid-template-rows: auto 1fr auto;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  border-radius: 10px 100px / 120px;
+  background-color: #45a1ff;
 }
 
 h1 {
   margin-bottom: 0;
-}
-
-header {
-  background-color:;
-  margin-top: 0;
-  /* display: flex; */
 }
 
 body {
@@ -50,4 +60,11 @@ body {
 
 footer {
   display: flex;
+  background-color: #45a1ff;
+}
+
+nav a {
+  margin-bottom: 0px;
+  padding: 2px;
+  border-right: .1rem solid;
 }
