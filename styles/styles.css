@@ -43,8 +43,8 @@ nav a {
   border-right: .1rem solid;
 }
 
-.navi {
-  vertical-align: middle;
+.navi a {
+  color: black;
 }
 
 .sections section {
