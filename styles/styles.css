@@ -27,6 +27,7 @@ header {
   justify-content: space-between;
   border-radius: 10px 100px / 120px;
   background-color: #45a1ff;
+  align-items: center;
 }
 
 h1 {
@@ -38,28 +39,9 @@ body {
   vertical-align: middle;
 }
 
-.container,
-.skrilla_works {
-  display: flex;
-}
-
-.skrilla_at_glance p,
-.container p,
-.skrilla_works p {
-  width: 100%;
-  padding-bottom: 100%;
-  margin: 10px;
-  padding: 2px;
-  border: 1px solid;
-  border-radius: 5px;
-}
-
-.skrilla_at_glance {
-  display: flex;
-}
-
 footer {
   display: flex;
+  justify-content: space-between;
   background-color: #45a1ff;
 }
 
@@ -67,4 +49,8 @@ nav a {
   margin-bottom: 0px;
   padding: 2px;
   border-right: .1rem solid;
+}
+
+.navi {
+  vertical-align: middle;
 }
