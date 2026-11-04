@@ -27,7 +27,6 @@ header {
   display: flex;
   justify-content: space-between;
   border-radius: 10px 100px / 120px;
-  background-color: #45a1ff;
   align-items: center;
 }
 
@@ -39,19 +38,28 @@ footer {
 
 nav a {
   padding: 2px;
-  border-right: .1rem solid;
   color: black;
 }
 
-.skrilla-supoorted {
+.skrilla-supported {
   display: flex;
   justify-content: space-around;
 }
 
-.skrilla-supported div {
+.skrilla-supported > div {
   background-color: #45a1ff;
   border-radius: 10px 100px / 120px;
   padding: 2em;
+}
+
+main {
+  margin-top: 2px;
+  display: grid;
+  grid-template-areas: "a a";
+  gap: 10px;
+}
+
+.desc-section {
 }
 
 .sections section {
