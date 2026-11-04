@@ -38,13 +38,20 @@ footer {
 }
 
 nav a {
-  margin-bottom: 0px;
   padding: 2px;
   border-right: .1rem solid;
+  color: black;
 }
 
-.navi a {
-  color: black;
+.skrilla-supoorted {
+  display: flex;
+  justify-content: space-around;
+}
+
+.skrilla-supoorted div {
+  background-color: #45a1ff;
+  border-radius: 10px 100px / 120px;
+  padding: 2em;
 }
 
 .sections section {
